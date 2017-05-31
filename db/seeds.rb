@@ -10,6 +10,23 @@ u = User.new(
 # u.skip_confirmation!
 u.save!
 
+u = User.new(
+  # username:              'Jim Morrison',
+  email:                 'jim@gmail.com',
+  password:              'password',
+  password_confirmation: 'password'
+)
+# u.skip_confirmation!
+u.save!
+
+u = User.new(
+  # username:              'John Lennon',
+  email:                 'john@gmail.com',
+  password:              'password',
+  password_confirmation: 'password'
+)
+# u.skip_confirmation!
+u.save!
 
 # Items, for Default User
 5.times do
