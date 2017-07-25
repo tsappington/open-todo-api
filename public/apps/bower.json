@@ -1,0 +1,25 @@
+{
+  "name": "open-todo",
+  "homepage": "https://github.com/tsappington/open-todo-api",
+  "authors": [
+    "Ted Sappington <tedsappington@gmail.com>"
+  ],
+  "description": "Open ToDo",
+  "main": "public",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-token-auth": "^0.0.30",
+    "angular-ui-router": "^1.0.5",
+    "angular": "^1.6.4"
+  },
+  "resolutions": {
+    "angular": "^1.6.4"
+  }
+}

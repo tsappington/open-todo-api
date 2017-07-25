@@ -1,0 +1,12 @@
+<section class="container" ng-controller="HomeCtrl as home">
+
+	<table class="tasks-current">
+		<tr>
+			<th>Current Tasks</th>
+		</tr>
+		<tr ng-repeat="task in home.tasks">
+			<td>{{ task.title }}</td>
+		</tr>
+	</table>
+
+</section>
