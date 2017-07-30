@@ -1,0 +1,16 @@
+<section class="container">
+
+	<login-form></login-form>
+
+	<table class="tasks-current">
+		<tr>
+			<th>Current Tasks</th>
+		</tr>
+		<tr ng-repeat="task in $ctrl.tasks">
+			<td>{{ task.title }}</td>
+		</tr>
+	</table>
+
+
+
+</section>
